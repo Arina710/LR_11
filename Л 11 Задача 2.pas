@@ -1,0 +1,21 @@
+﻿uses GraphABC;
+begin
+  MoveTo(120,120);
+  LineTo(20,50);
+  LineTo(80,160);
+  LineTo(200,160);
+  LineTo(260,50);
+  LineTo(160,120);
+  MoveTo(110,160);
+  LineTo(140,20);
+  LineTo(170,160);
+  Circle(20,50,20);
+  Circle(140,20,20);
+  Circle(260,50,20);
+  FloodFill(50,80,clblue);
+  FloodFill(140,80,clred);
+  FloodFill(190,150,cllime);
+  FloodFill(20,50,clblue);
+  FloodFill(140,20,clred);
+  FloodFill(260,50,cllime);
+end.
